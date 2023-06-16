@@ -14,6 +14,7 @@ const Scoreview = ({ handleResetClick, score }) => {
         <span> @Abraham </span> </div>
     </footer>
     </div>
+</div>
   );
 };
 
