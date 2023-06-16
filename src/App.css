@@ -22,4 +22,12 @@ button {
   font-weight: bold;
   width: 100%;
 }
+.close{
+    text-size: 12px;
+    padding-top: 18px;
+    font-weight: lighter;
+    display: grid;
+
+}
+
 
