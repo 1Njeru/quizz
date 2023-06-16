@@ -4,13 +4,13 @@ div {
     align-items: center;
 }
 .score{
-    text-size: 28px;
+    text-size: 3xl;
     font-weight: bold;
     
 }
 .close{
     text-size: 12px;
     padding-top: 18px;
-    font-weight: bold;
+    font-weight: lighter;
 
 }
