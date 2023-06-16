@@ -3,6 +3,11 @@ div {
     flex-direction: column;
     align-items: center;
 }
+.page{
+ display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .score{
     text-size: 3xl;
     font-weight: bold;
