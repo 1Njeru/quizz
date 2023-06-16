@@ -5,10 +5,10 @@ div {
 }
 .score{
     text-size: 28px;
+    font-weight: lighter;
 }
 .close{
     text-size: 12px;
-    font-weight: lighter;
     padding-top: 10px;
 
 }
