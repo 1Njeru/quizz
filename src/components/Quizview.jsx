@@ -23,11 +23,6 @@ const Quizview = ({ questions, currentQuestion, handleAnswerClick }) => {
         ))}
       </div>
     </>
- <footer className="bg-gray-900 text-white">
-       <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7">
-       <span>© 2020 Appy. All rights reserved.</span>
-        <span>Terms · Privacy Policy</span>
-      </footer>
   );
 };
 
