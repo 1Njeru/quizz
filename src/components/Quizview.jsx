@@ -22,10 +22,6 @@ const Quizview = ({ questions, currentQuestion, handleAnswerClick }) => {
           </button>
         ))}
       </div>
-     <footer className="footer">
-       <span>© 2023 Appy. All rights reserved.</span>
-        <span >Terms · Privacy Policy</span> 
-    </footer>
     </>
   );
 };
