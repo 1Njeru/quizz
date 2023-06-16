@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import QuizView from "./components/Quizview";
 import ScoreView from "./components/Scoreview";
-import Footer from "./components/Footer
+
 function App() {
   const questions = [
      {
@@ -82,7 +82,7 @@ function App() {
           currentQuestion={currentQuestion}
           handleAnswerClick={handleAnswerClick}
         />
-            <Footer />
+           
       )}
     </div>
   )
