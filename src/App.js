@@ -88,9 +88,9 @@ function App() {
       </div>
         <div>
       <footer className="bg-gray-900 text-white">
-     <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7 text-2xl ">
-       <span >© 2020 Appy. All rights reserved.</span>
-        <span>Terms · Privacy Policy</span> </div>
+     <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7">
+       <span className='text-xl' >© 2020 Appy. All rights reserved.</span>
+        <span className='text-xl' >Terms · Privacy Policy</span> </div>
     </footer>
     </div>
     </div>
