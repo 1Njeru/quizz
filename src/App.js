@@ -92,6 +92,7 @@ function App() {
        <span>Congratulations</span>
         <span> @Njeru </span> 
     </footer>
+</div>
   );
 
     
