@@ -95,7 +95,6 @@ function App() {
     </div>
     </footer>
     </div>
-</div
     </div>
        
    
