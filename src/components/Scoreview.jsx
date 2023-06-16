@@ -9,7 +9,7 @@ const Scoreview = ({ handleResetClick, score }) => {
 <div className='close'>
   <footer>
        <span>Congratulations</span>
-        <span> @Njeru </span> </div>
+        <span> @Njeru </span> 
     </footer>
     </div>
    
