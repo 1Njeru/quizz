@@ -18,7 +18,7 @@ function App() {
       question: "Where is the strongest human muscle located",
       answers: [{ text: "thigh" }, 
                 { text: "arm" }, 
-                { text: "jaw", isCorrect: true }
+                { text: "jaw", isCorrect: true },
                 { text: "buttocks"}, 
     ],
     },
