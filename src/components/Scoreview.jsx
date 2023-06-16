@@ -7,7 +7,7 @@ const Scoreview = ({ handleResetClick, score }) => {
       <p>You scored {score} out of 5</p>
       <button onClick={handleResetClick}>Reset</button>
     </div>
-     <div className='text-xl font-lighter'>
+     <div >
       <footer className="bg-gray-900 text-white font-bold">
      <div className="md:flex md:justify-between md:items-center sm:px-12 bg-[#ffffff19] ">
        <span>Congratulations on completing</span>
