@@ -93,7 +93,7 @@ function App() {
          md:w-2/5"
         >
           <span className="text-teal-400">Free</span> until you're ready to
-          launch
+          launch.
         </h1>
       </div>
       <div>
