@@ -2,7 +2,7 @@ div {
     display: flex;
     flex-direction: column;
     
-    font-weight: lighter;
+    font-weight: bold;
     align-items: center;
 }
 .score{
