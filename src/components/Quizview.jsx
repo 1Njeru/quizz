@@ -24,7 +24,7 @@ const Quizview = ({ questions, currentQuestion, handleAnswerClick }) => {
       </div>
      <footer className="footer">
        <span>© 2023 Appy. All rights reserved.</span>
-        <span >Terms · Privacy Policy</span> </div>
+        <span >Terms · Privacy Policy</span> 
     </footer>
     </>
   );
