@@ -23,11 +23,11 @@ const Quizview = ({ questions, currentQuestion, handleAnswerClick }) => {
         ))}
       </div>
     
-       <div>
+       <div className='text-xl font-lighter'>
       <footer className="bg-gray-900 text-white font-bold">
-     <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7 font-xl">
-       <span className='font-xl' >© 2020 Appy. All rights reserved.</span>
-        <span className='font-xl' >Terms · Privacy Policy</span> </div>
+     <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7 ">
+       <span>© 2023 Appy. All rights reserved.</span>
+        <span >Terms · Privacy Policy</span> </div>
     </footer>
     </div>
 
