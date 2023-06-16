@@ -76,7 +76,6 @@ function App() {
   return (
     <div className="App">
     <div>
-    <div>
       {isQuizOver ? (
         <ScoreView handleResetClick={handleResetClick} score={score} />
       ) : (
@@ -91,8 +90,7 @@ function App() {
       <footer className="bg-gray-900 text-white text-2xl">
      <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7 ">
        <span>© 2020 Appy. All rights reserved.</span>
-        <span>Terms · Privacy Policy</span>
-    </div>
+        <span>Terms · Privacy Policy</span> </div>
     </footer>
     </div>
     </div>
