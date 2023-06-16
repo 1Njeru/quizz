@@ -23,9 +23,9 @@ const Quizview = ({ questions, currentQuestion, handleAnswerClick }) => {
         ))}
       </div>
     
-       <div className='text-xl font-lighter'>
-      <footer className="bg-gray-900 text-white font-bold">
-     <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 bg-[#ffffff19] py-7 ">
+       <div>
+      <footer className="bg-gray-900 text-white font-bold text-xl">
+     <div className="md:flex md:justify-between md:items-center sm:px-12  bg-[#ffffff19] ">
        <span>© 2023 Appy. All rights reserved.</span>
         <span >Terms · Privacy Policy</span> </div>
     </footer>
