@@ -1,8 +1,6 @@
 div {
     display: flex;
     flex-direction: column;
-    
-    font-weight: bold;
     align-items: center;
 }
 .score{
@@ -10,5 +8,7 @@ div {
 }
 .close{
     text-size: 12px;
+    font-weight: lighter;
+    padding-top: 10px;
 
 }
