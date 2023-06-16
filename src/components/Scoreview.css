@@ -1,7 +1,7 @@
 div {
     display: flex;
     flex-direction: column;
-    font-size: auto;
+    
     font-weight: lighter;
     align-items: center;
 }
