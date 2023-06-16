@@ -5,44 +5,48 @@ import ScoreView from "./components/Scoreview";
 
 function App() {
   const questions = [
+     {
+      question: "Which  of this counties does not have sand unes in Kenya?",
+      answers: [
+        { text: "Marsabit" },
+        { text: "Kwale" },
+        { text: "Turkana" },
+        { text: "Isiolo", isCorrect: true },
+      ],
+    },
     {
       question: "Where is the strongest human muscle located",
-      answers: [{ text: "leg" }, { text: "arm" }, { text: "jaw", isCorrect: true }],
+      answers: [{ text: "thigh" }, 
+                { text: "arm" }, 
+                { text: "jaw", isCorrect: true }
+                { text: "buttocks"}, 
+    ],
     },
     {
-      question: "Who is CEO of Tesla?",
+      question: "Who is the Deputy Govenor of Nairobi?",
       answers: [
-        { text: "Jeff Bezos" },
-        { text: "Elon Musk", isCorrect: true },
-        { text: "Bill Gates" },
-        { text: "Tony Stark" },
+        { text: "Isaac Mutuma" },
+        { text: "James Njoroge Muchiri", isCorrect: true },
+        { text: "Stephen Mburu" },
+        { text: "Gesami James" },
       ],
     },
     {
-      question: "Where is Statue of Liberty is located?",
+      question: "What is the capital city of Tanzania?",
       answers: [
-        { text: "India" },
-        { text: "Russia" },
-        { text: "UK" },
-        { text: "USA", isCorrect: true },
+        { text: "Dar es Salaam" },
+        { text: "Dodoma", isCorrect: true },
+        { text: "Zanzibar" },
+        { text: "Arusha" },
       ],
     },
     {
-      question: "What is the capital of Germany?",
+      question: "Which is element #79 in the periodic table and symbol is Au?",
       answers: [
-        { text: "Paris" },
-        { text: "Berlin", isCorrect: true },
-        { text: "London" },
-        { text: "Dublin" },
-      ],
-    },
-    {
-      question: "Which one is the largest tropical rain forest in the world?",
-      answers: [
-        { text: "Amazon", isCorrect: true },
-        { text: "Bosawas" },
-        { text: "Southeast Asian Rain Forest" },
-        { text: "Daintree Rain Forest" },
+        { text: "Gold", isCorrect: true },
+        { text: "Vibranium" },
+        { text: "Zinc" },
+        { text: "Uranium" },
       ],
     },
   ];
