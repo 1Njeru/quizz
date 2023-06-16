@@ -8,12 +8,13 @@ const Scoreview = ({ handleResetClick, score }) => {
       <p>You scored {score} out of 5</p>
       <button onClick={handleResetClick}>Reset</button>
 </div>
+</div>
 <div className='close'>
   <footer>
        <span>Congratulations</span>
         <span> @Njeru </span> 
     </footer>
-</div>
+
   </div>
    
       
