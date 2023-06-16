@@ -12,5 +12,6 @@ div {
     text-size: 12px;
     padding-top: 18px;
     font-weight: lighter;
+    display: grid;
 
 }
