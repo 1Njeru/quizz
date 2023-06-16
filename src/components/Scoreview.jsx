@@ -9,7 +9,7 @@ const Scoreview = ({ handleResetClick, score }) => {
       <button onClick={handleResetClick}>Reset</button>
 </div>
  <footer className="close">
-       <span>© 2023 Appy. All rights reserved.</span>
+       <span>© 2023. All rights reserved.</span>
         <span >Terms · Privacy Policy</span> 
     </footer>
 </div>
