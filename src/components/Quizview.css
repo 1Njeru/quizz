@@ -1,7 +1,7 @@
 main{
-    min-width: 601px;
+
     padding: 20px;
-    max-width:100;
+    
 }
 .question {
     display: flex;
