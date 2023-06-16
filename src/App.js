@@ -6,8 +6,8 @@ import ScoreView from "./components/Scoreview";
 function App() {
   const questions = [
     {
-      question: "Total number of oceans in the World is",
-      answers: [{ text: "7" }, { text: "6" }, { text: "5", isCorrect: true }],
+      question: "Where is the strongest human muscle located",
+      answers: [{ text: "leg" }, { text: "arm" }, { text: "jaw", isCorrect: true }],
     },
     {
       question: "Who is CEO of Tesla?",
