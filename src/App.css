@@ -11,6 +11,7 @@
   width: 40rem;
   overflow: auto;
   max-width: 100%;
+  min-width: 601px
  
 }
 button {
