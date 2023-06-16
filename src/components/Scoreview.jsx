@@ -10,7 +10,7 @@ const Scoreview = ({ handleResetClick, score }) => {
    <footer className="bg-gray-900 text-white font-bold">
      <div className="md:flex md:justify-between md:items-center sm:px-12 bg-[#ffffff19] ">
        <span>Congratulations</span>
-        <span> @1Njeru </span> </div>
+        <span> @Njeru </span> </div>
     </footer>
 </div>
     </div>
