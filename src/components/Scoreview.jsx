@@ -3,7 +3,7 @@ import "./Scoreview.css";
 
 const Scoreview = ({ handleResetClick, score }) => {
   return (
-    <div className='text-28px'>
+    <div className='text-2xl'>
       <p>You scored {score} out of 5</p>
       <button onClick={handleResetClick}>Reset</button>
 <div className='font-bold'>
