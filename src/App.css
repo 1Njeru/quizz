@@ -9,6 +9,8 @@
   box-shadow: round;
   padding: 30px;
   width: 40rem;
+  overflow: auto;
+  max-width: 100%;
  
 }
 button {
