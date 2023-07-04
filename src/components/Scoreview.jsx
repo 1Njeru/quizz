@@ -15,8 +15,13 @@ const Scoreview = ({ handleResetClick, score }) => {
 </div>
 
 
-
-
+<footer>
+<li className='lin'>
+<a href='https://www.history.com/this-day-in-history/chilean-miners-are-rescued-after-69-days-underground' target='_blank rel="noreferrer"'>
+2023 .. Click on me.. 1Njeru
+</a>
+</li>
+</footer>
 
 </div>
 
