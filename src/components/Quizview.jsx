@@ -4,6 +4,7 @@ import "./Quizview.css";
 const Quizview = ({ questions, currentQuestion, handleAnswerClick }) => {
   return (
     <main>
+    <div className="container">
       <div className="question">
         <div className="question-number">
           <span>
@@ -21,6 +22,7 @@ const Quizview = ({ questions, currentQuestion, handleAnswerClick }) => {
             {text}
           </button>
         ))}
+      </div>
       </div>
     </main>
   );

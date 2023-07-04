@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import QuizView from "./components/Quizview";
 import ScoreView from "./components/Scoreview";
+import Anima from './boss/Anima';
 
 function App() {
   const questions = [
@@ -86,6 +87,7 @@ function App() {
         />    
       )}
       </div>
+      <Anima />
 
     </div>
 
