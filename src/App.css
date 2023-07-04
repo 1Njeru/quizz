@@ -1,6 +1,6 @@
 .App {
   background-color: lightseagreen;
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,6 +21,7 @@ display: grid;
 justify-items: center;
 justify-content: center;
 }
+
 button {
   cursor: pointer;
   background-color: white;
