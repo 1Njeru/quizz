@@ -1,23 +1,30 @@
 .App {
-  background-color: #c2571a;
+  background-color: lightseagreen;
   color: white;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
+  justify-items: center;
   border-radius: 10px;
   box-shadow: round;
   padding: 30px;
   width: auto;
   overflow: auto;
   max-width: 100%;
-  min-width: 601px
+  min-width: 601px;
+
  
+}
+.aps{
+display: grid;
+justify-items: center;
+justify-content: center;
 }
 button {
   cursor: pointer;
   background-color: white;
-  color: #c2571a;
+  color: #21130b;
   border: none;
   padding: 5px;
   border-radius: 7px;

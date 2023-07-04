@@ -2,12 +2,15 @@ import { useState } from "react";
 import "./App.css";
 import QuizView from "./components/Quizview";
 import ScoreView from "./components/Scoreview";
-import Anima from './boss/Anima';
+
+
+
+
 
 function App() {
   const questions = [
      {
-      question: "Which  of this counties does not have sand unes in Kenya?",
+      question: "Which  of this counties does not have sand dunes in Kenya?",
       answers: [
         { text: "Marsabit" },
         { text: "Kwale" },
@@ -50,6 +53,52 @@ function App() {
         { text: "Uranium" },
       ],
     },
+    {
+      question: "How many years is Kenya since independence?",
+      answers: [
+        { text: "60", isCorrect: true },
+        { text: "64" },
+        { text: "59" },
+        { text: "63" },
+      ],
+    },
+    {
+      question: "Which is the highest peak in Mt Kenya?",
+      answers: [
+        { text: "Nelion" },
+        { text: "Lenana" },
+        { text: "Batian", isCorrect: true },
+       
+      ],
+    },
+    {
+      question: "How old was Jesus when the wise men found Him??",
+      answers: [
+        { text: "3 days" },
+        { text: "2 years" },
+        { text: "12 days", isCorrect: true },
+        { text: "1 year" },
+      ],
+    },
+    {
+      question: "Who is the current Auditor General?",
+      answers: [
+        { text: "Philomena Mwilu" },
+        { text: "Martha Koome" },
+        { text: "Rachel Ruto" },
+        { text: "Nancy Gathungu", isCorrect: true },
+      ],
+    },
+    {
+      question: "Who changed water into wine?",
+      answers: [
+        { text: "Simon of Arimathea" },
+        { text: "John the baptist" },
+       
+        { text: "Jesus Christ", isCorrect: true },
+        { text: "Moses of Egypt" },
+      ],
+    },
   ];
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -76,7 +125,7 @@ function App() {
 
   return (
     <div className="App">
-    <div>
+    <div className="aps">
       {isQuizOver ? (
         <ScoreView handleResetClick={handleResetClick} score={score} />
       ) : (
@@ -87,7 +136,10 @@ function App() {
         />    
       )}
       </div>
-      <Anima />
+    
+
+   
+  
 
     </div>
 

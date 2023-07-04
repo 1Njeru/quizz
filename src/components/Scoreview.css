@@ -8,12 +8,20 @@ div {
  display: flex;
     flex-direction: column;
     align-items: center;
+    height: screen;
 }
 .score{
     text-size: 3xl;
     font-weight: bold;
     
 }
+.btnn{
+    width: 150px;
+    height: 20px;
+    background-color: darkseagreen;
+    color: black;
+}
+
 .close{
     text-size: 12px;
     font-weight: lighter;
