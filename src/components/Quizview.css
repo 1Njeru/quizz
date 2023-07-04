@@ -33,7 +33,7 @@ main{
 }
 .question-text {
     font-size: 28px;
-    font-weight: lighter;
+    font-weight: normal;
     margin-bottom: 25px;
     text-align: center;
 }
